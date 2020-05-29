@@ -7,7 +7,8 @@ class Anagram
   end
   
   def match(possible_anagrams)
-    anagrams = possible_anagrams.join.split("").sort == self.word.split("").sort
+    anagrams = []
+    if possible_anagrams.join.split("").sort == self.word.split("").sort
   end
   
   
